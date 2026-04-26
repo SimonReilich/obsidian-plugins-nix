@@ -16,12 +16,12 @@ pkgs.stdenv.mkDerivation rec {
 
   manifest = pkgs.fetchurl {
     url = "${repo}/releases/download/${version}/manifest.json";
-    sha256 = "sha256-vvPoJiRlNa1FxpjzdePy2K3wgul+9DiWIuYOfD2laas=";
+    sha256 = "sha256-N8VxWwf17a3bsujlp+iM2+CIX54cEeFo2zlvWYe9B7Y=";
   };
 
   stylesCss = pkgs.fetchurl {
     url = "${repo}/releases/download/${version}/manifest.json";
-    sha256 = "sha256-vvPoJiRlNa1FxpjzdePy2K3wgul+9DiWIuYOfD2laas=";
+    sha256 = "sha256-N8VxWwf17a3bsujlp+iM2+CIX54cEeFo2zlvWYe9B7Y=";
   };
 
   phases = [ "installPhase" ];
