@@ -11,7 +11,7 @@ pkgs.stdenv.mkDerivation rec {
 
   mainJs = pkgs.fetchurl {
     url = "${repo}/releases/download/${version}/main.js";
-    sha256 = "sha256-OQvgGm5beP+yG3nc4pZWTBJpcsMqTvlN7/gf4sQ+xcY=";
+    sha256 = "sha256-Ryf8ut2R1sUJdye0wW1TH1kKN5ZZ3NgX/e+b6dN4a5g=";
   };
 
   manifest = pkgs.fetchurl {
