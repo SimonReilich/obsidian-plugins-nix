@@ -6,7 +6,7 @@
 
 pkgs.stdenv.mkDerivation rec {
   pname = "obsidian.plugins.templater";
-  version = "2.18.1";
+  version = "2.19.3";
   repo = "https://github.com/SilentVoid13/Templater";
 
   mainJs = pkgs.fetchurl {

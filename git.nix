@@ -6,7 +6,7 @@
 
 pkgs.stdenv.mkDerivation rec {
   pname = "obsidian.plugins.git";
-  version = "2.38.0";
+  version = "2.38.2";
   repo = "https://github.com/Vinzent03/obsidian-git";
 
   mainJs = pkgs.fetchurl {
