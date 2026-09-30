@@ -6,22 +6,22 @@
 
 pkgs.stdenv.mkDerivation rec {
   pname = "obsidian.plugins.templater";
-  version = "2.25.0";
+  version = "2.25.1";
   repo = "https://github.com/SilentVoid13/Templater";
 
   mainJs = pkgs.fetchurl {
     url = "${repo}/releases/download/${version}/main.js";
-    sha256 = "sha256-ail5DorTuz3lvMc4FYjyAJOy2+zB/yfYpdftP867304=";
+    sha256 = "sha256-64bZKCaUzh8JkVTDIChv3YlHPmDcJEHuMQ86wzEzPpQ=";
   };
 
   manifest = pkgs.fetchurl {
     url = "${repo}/releases/download/${version}/manifest.json";
-    sha256 = "sha256-dZhRiPrItRjuu3kTcKJNrhokdszjkS3kcJd4294BceQ=";
+    sha256 = "sha256-uZKA0sSrLNIq0BDBL67t8lW884XRJ9lzuJ+F3rJ9I/0=";
   };
 
   stylesCss = pkgs.fetchurl {
     url = "${repo}/releases/download/${version}/manifest.json";
-    sha256 = "sha256-dZhRiPrItRjuu3kTcKJNrhokdszjkS3kcJd4294BceQ=";
+    sha256 = "sha256-uZKA0sSrLNIq0BDBL67t8lW884XRJ9lzuJ+F3rJ9I/0=";
   };
 
   phases = [ "installPhase" ];
